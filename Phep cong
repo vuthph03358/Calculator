@@ -1,0 +1,23 @@
+Imports System.IO
+Public Class Frm_Cong
+
+    Private Sub btnCalculate_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCalculate.Click
+
+        ' Khai báo biến
+        Dim A As Integer
+        Dim B As Integer
+        Dim Resul As String
+
+        ' Nhập giá trị vào Buttom Calculate
+      
+        lblResul.Text = Val(txtA.Text) + Val(txtB.Text)
+
+
+
+
+    End Sub
+
+    Private Sub txtA_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtA.TextChanged
+
+    End Sub
+End Class
